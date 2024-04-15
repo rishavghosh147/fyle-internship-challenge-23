@@ -1,5 +1,5 @@
 ## fyle-assignment
-[![Netlify Status](https://api.netlify.com/api/v1/badges/de212447-67e0-4e47-a653-2ddbfc8aa393/deploy-status)](https://app.netlify.com/sites/exquisite-parfait-ea7ffe/overview)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/de212447-67e0-4e47-a653-2ddbfc8aa393/deploy-status)](https://exquisite-parfait-ea7ffe.netlify.app)
 ### Enter Username and Search to find all the related repositories
 
 ### Get Things Ready

@@ -1,5 +1,4 @@
 ## fyle-assignment
-![Netlify Status](https://api.netlify.com/api/v1/badges/de212447-67e0-4e47-a653-2ddbfc8aa393/deploy-status)
 
 ### Enter Username and Search to find all the related repositories
 

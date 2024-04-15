@@ -53,7 +53,7 @@ export class PaginationComponent implements OnInit{
     this.isDropdownOpen = !this.isDropdownOpen;
     setTimeout(() => {
       this.isDropdownOpen = false;
-    }, 8000);
+    }, 10000);
   }
   
 

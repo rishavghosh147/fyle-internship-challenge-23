@@ -1,0 +1,24 @@
+.mobile{
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 768px) {
+    * {
+      max-width: 100vw;
+    }
+
+    .mob{
+        display: flex;
+        flex-direction: column;
+    }
+    .mobile{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .nav{
+        margin-top: 2%;
+    }
+
+}

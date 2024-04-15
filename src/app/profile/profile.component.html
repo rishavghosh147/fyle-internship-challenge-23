@@ -1,0 +1,44 @@
+<div class="user-details" *ngIf="userData">
+  <div class="user-details__main">
+
+    <div class="avt">
+      <img class="avatar" src={{userData.avatar_url}} />
+    </div>
+
+    <div class="details mt-10">
+      <h1>{{userData.name}}</h1>
+      <p>{{userData.bio}}</p>
+
+      <p>
+        <i class="fa-solid fa-location-dot"></i> {{userData.location}}
+      </p>
+
+      <p class="link-text">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/512px-Logo_of_Twitter.svg.png" class="flex logo">
+        <a href="https://twitter.com/{{userData.twitter_username}}" class="flex">&nbsp; twitter</a>
+      </p> 
+
+      <div class="status container flex flex-row justify-between mt-10">
+
+        <div class="status-item" *ngIf="userData?.followers">
+          <h3>Followers</h3>
+          <p>{{userData?.followers}}</p>
+        </div>
+
+        <div class="status-item" *ngIf="userData?.following">
+          <h3>Followings</h3>
+          <p>{{userData?.following}}</p>
+        </div>
+
+        <div class="status-item" *ngIf="userData?.public_repos">
+          <h3>Repositories</h3>
+          <p>{{userData?.public_repos}}</p>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<app-repository></app-repository>

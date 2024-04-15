@@ -1,0 +1,20 @@
+
+<div [class.home]="publicRepos!=null" [class.emptyhome]="!publicRepos" class="mobile">
+    <a href="/" class="text-[17px] bg-blue-500 hover:bg-blue-600 text-white font-bold w-30px py-2 px-4 rounded">go to home</a>
+</div>
+
+<div class="body">
+    <div class="main" *ngFor="let repo of publicRepos">
+        <div class="card">
+            <h5><b>{{repo.name}}</b></h5>
+            <div *ngIf="repo.description">{{repo.description}}</div>
+            <div class="flex">
+                <div class="language flex"*ngIf="repo.language">{{repo.language}}</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div *ngIf="publicRepos">
+    <app-pagination (pageobj)="recivePage($event)"></app-pagination>
+</div>

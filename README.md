@@ -18,4 +18,4 @@
 
 ### Netlify URL
 
-https://exquisite-parfait-ea7ffe.netlify.app
+gitinformation.netlify.app

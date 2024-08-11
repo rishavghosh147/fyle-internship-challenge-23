@@ -18,4 +18,4 @@
 
 ### Netlify URL
 
-gitinformation.netlify.app
+https://gitinformation.netlify.app
